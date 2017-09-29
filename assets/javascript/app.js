@@ -11,6 +11,7 @@
   };
   firebase.initializeApp(config);
 
+    var database = firebase.database();
 
 // 2. Button for adding trains
 $('#add-train-btn').on("click", function(event) {
